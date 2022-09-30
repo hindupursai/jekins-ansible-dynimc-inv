@@ -3,7 +3,7 @@
   tasks:
     - name: Install Java
       yum:
-        name: java-11-openjdk-dlevel -y
+        name: java-11-openjdk -y
         state: present
     - name: add tomcatuser
       user:
